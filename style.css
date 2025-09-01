@@ -1,0 +1,52 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-color: #1e1e1e;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  margin: 20px 0;
+}
+
+#gameArea {
+  width: 500px;
+  height: 400px;
+  border: 2px solid #fff;
+  margin: 20px auto;
+  position: relative;
+  background-color: #2c2c2c;
+  overflow: hidden;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  cursor: pointer;
+}
+
+#leaderboard {
+  list-style: none;
+  padding: 0;
+  width: 400px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+#leaderboard li {
+  padding: 10px;
+  margin: 5px 0;
+  background: #111;
+  border-radius: 8px;
+}
+
+#leaderboard li.top-scorer {
+  background: linear-gradient(90deg, #ffd700, #ffb400);
+  color: black;
+  font-weight: bold;
+}
